@@ -44,3 +44,52 @@ Ubuntu与centOS的区别，目前来看前者要比后者UI设计好看多了，
 我个人在看书的时候也觉得单单按书敲一遍命令是没啥用的，还是要有点小项目来训练，因为我打算走嵌入式反相，那么这个内存管理、与工作环境便显得格外重要，frank讲的话也应证了我先前的观点。
 ![image](https://github.com/Art-Pig/Linux-studying/assets/121549293/bbc1befd-551a-4608-8a25-1cf8bb334d98)
 
+第二天学习：
+GUI（图形界面）
+Unity用于Ubuntu
+GUI:
+1.X windows
+2.KDE
+3.GNOME
+4.unity
+
+Linux/GUN:Linux内核，GUN命令（shell）；
+
+Linux发行版：
+Ubuntu、CentOS、Red Hat
+
+shell 命令：
+写命令时要注意空格
+~波浪线表示当前所在命令，当前用户/home目录
+$表示等待用户输入
+bash 手册，man命令可以查询用处，但是都是英文；可以用这个网站“wangchujiang.com”，这是一个免费的在线命令查找网站
+
+Linux根目录
+Linux一切皆文件
+注意：Linux的文件不要乱删，可能会使系统崩溃
+cd:切换目录
+“\”正斜线，Windows
+/反斜线是Linux
+/$代表根目录
+Linux没有盘符的概念（无C、D盘）
+
+Linux根目录解析：
+/bin 二进制目录GNC工具，ls等自带的命令
+/cdrom
+/etc 系统配制文件目录
+/home 主目录，显示所有用户目录
+/lib 库目录
+/lost + found
+/mnt 挂载目录，U盘挂载--外在的设备和电脑进行连接
+/proc 伪文件系统
+/run 运行目录
+/snap 
+/temp 临时目录
+/var 可变目录 .log
+/dev 设备目录，驱动程序
+/media 媒体目录
+/opt 可选目录
+/root root用户的主目录管理员
+/sbin 系统二进制目录，GNU/高级管理员使用的命令工具
+/src 服务目录本地服务
+FHS 文件系统层级标准
