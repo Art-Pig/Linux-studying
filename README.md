@@ -74,22 +74,43 @@ cd:切换目录
 Linux没有盘符的概念（无C、D盘）
 
 Linux根目录解析：
+
 /bin 二进制目录GNC工具，ls等自带的命令
+
 /cdrom
+
 /etc 系统配制文件目录
+
 /home 主目录，显示所有用户目录
+
 /lib 库目录
+
 /lost + found
+
 /mnt 挂载目录，U盘挂载--外在的设备和电脑进行连接
+
 /proc 伪文件系统
+
 /run 运行目录
+
 /snap 
+
 /temp 临时目录
+
 /var 可变目录 .log
+
 /dev 设备目录，驱动程序
+
 /media 媒体目录
+
 /opt 可选目录
+
 /root root用户的主目录管理员
+
+
 /sbin 系统二进制目录，GNU/高级管理员使用的命令工具
+
 /src 服务目录本地服务
+
+
 FHS 文件系统层级标准
