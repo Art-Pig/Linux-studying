@@ -233,4 +233,15 @@ rm (removing删除) 最危险的命令，删库跑路
 
  mkdir (make directories) 创建文件
 
+cat 可以直接在终端上打开文件，在终端里显示（适用于内容比较小的地方）
+
+cat -n 每一行带上符号
+
+more 以全屏展示，可以翻页，翻页字母B上一页，空格下一页，Q是退出
+
+less cat more 是打开文本文件的三大命令
+
+hed n -2 demo.c 打开前两行
+
+tail n -2 demo.c 打开后两行
 
