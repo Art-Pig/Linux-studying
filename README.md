@@ -245,3 +245,64 @@ hed n -2 demo.c 打开前两行
 
 tail n -2 demo.c 打开后两行
 
+Bash shell
+
+Linux 任务管理器 System Monitor
+
+使用命令形式查看 top
+
+ps (process atatus 进程状态) 
+
+ps -aux | grep named # 查看named进程详细信息
+
+kill 中断进程
+
+挂载：
+
+插上了U盘，电脑上出现，于是电脑创建了一个临时的盘供用户使用，电脑一关机就没了
+
+mnt 放自动挂载的文件目录
+
+mount 挂载到另一个目录上
+
+umount 卸载
+
+为什么要有挂载
+
+df 可以看到挂载目录
+
+以前的系统要自己挂载
+
+安卓挂载，开发者选项
+
+du -h 能看目录和文件大小
+
+sort -r 文件内容按倒序排序
+
+sort -m 按月份排序
+
+实例
+将 /home/vivek/bin/ 目录打包，并使用 gzip 算法压缩。保存为 /tmp/bin-backup.tar.gz 文件。
+
+tar -zcvf /tmp/bin-backup.tar.gz /home/vivek/bin/  (解压是-zxvf，注意查文件格式，命令自己去网上找)
+
+- z：有gzip属性的
+- 
+- j：有bz2属性的
+- 
+- Z：有compress属性的
+- 
+- v：显示所有过程
+- 
+- O：将文件解开到标准输出
+- 
+tar -cf archive.tar foo bar  # 从文件 foo 和 bar 创建归档文件 archive.tar。
+
+tar -tvf archive.tar         # 详细列举归档文件 archive.tar 中的所有文件。
+
+tar -xf archive.tar          # 展开归档文件 archive.tar 中的所有文件。
+
+下面的参数-f是必须的
+
+-f: 使用档案名字，切记，这个参数是最后一个参数，后面只能接档案名。
+
