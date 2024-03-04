@@ -330,5 +330,7 @@ sleeo 10&,&是放在后台10s
 
 jobs ,看后台工作，jobs -l 能看到PID
 
+挂在后台coproc
 
+history 查看历史命令
 
