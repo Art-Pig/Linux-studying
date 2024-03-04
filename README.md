@@ -306,3 +306,29 @@ tar -xf archive.tar          # 展开归档文件 archive.tar 中的所有文件
 
 -f: 使用档案名字，切记，这个参数是最后一个参数，后面只能接档案名。
 
+父子shell的概念：
+
+bash 本质是一个终端
+
+bash 下又用一次bash
+
+父bash 和 子bash
+
+PID 子，PPID 父
+
+exit 退出最新的bash
+
+ps -- forest 可以看到父子shell的叠层关系
+
+;分号的作用
+
+ls;pwd;cd 这样子可以依次执行
+
+sleep 10,让终端倒计时10秒（休眠）
+
+sleeo 10&,&是放在后台10s
+
+jobs ,看后台工作，jobs -l 能看到PID
+
+
+
