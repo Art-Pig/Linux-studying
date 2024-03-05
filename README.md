@@ -334,3 +334,4 @@ jobs ,看后台工作，jobs -l 能看到PID
 
 history 查看历史命令
 
+Linux环境变量
