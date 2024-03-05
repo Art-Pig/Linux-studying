@@ -335,3 +335,11 @@ jobs ,看后台工作，jobs -l 能看到PID
 history 查看历史命令
 
 Linux环境变量
+
+printenv 环境变量
+
+全局变量 大写，单词间下划线隔开
+
+局部变量小写，单词间下划线隔开
+
+PATH
