@@ -343,3 +343,11 @@ printenv 环境变量
 局部变量小写，单词间下划线隔开
 
 PATH
+
+包管理系统 PMS
+
+软件安装，更新，卸载 
+
+工具依赖
+
+dpkg (ubuntu Debian)        
