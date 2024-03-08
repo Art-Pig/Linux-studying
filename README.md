@@ -306,3 +306,6 @@ tar -xf archive.tar          # 展开归档文件 archive.tar 中的所有文件
 
 -f: 使用档案名字，切记，这个参数是最后一个参数，后面只能接档案名。
 
+Crtl+F 下翻
+
+Crtl+B 上翻
