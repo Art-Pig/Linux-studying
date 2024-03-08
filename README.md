@@ -374,4 +374,12 @@ vi nano emacs vim
 
 sudo apt install vim
 
+vim的使用
+
+编辑模式 i键（insert，插入模式）
+
+普通模式 ESC
+
+保存 ，退出 ：wq (write 写入，quit 退出)
+
 
