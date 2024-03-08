@@ -351,3 +351,27 @@ PATH
 工具依赖
 
 dpkg (ubuntu Debian)        
+
+用户与权限
+
+id 身份证
+
+用户 id UID 数字
+
+系统账户 : 数字（<500）
+
+密码被隐藏，用X表示
+
+作业：自学chmod
+
+编辑器之神VIM
+
+vi nano emacs vim
+
+学习vim
+
+安装vim
+
+sudo apt install vim
+
+
