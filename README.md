@@ -309,3 +309,7 @@ tar -xf archive.tar          # 展开归档文件 archive.tar 中的所有文件
 Crtl+F 下翻
 
 Crtl+B 上翻
+
+可视化模式
+
+复制
